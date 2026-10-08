@@ -1,0 +1,14 @@
+node_modules/
+videos/
+.recon-venv/
+.geometry-venv/
+.geometry-models/
+dist/
+output/
+.playwright-cli/
+*.tsbuildinfo
+vite.config.js
+vite.config.d.ts
+__pycache__/
+*.pt
+.DS_Store

@@ -1,0 +1,425 @@
+{
+  "schemaVersion": 1,
+  "clip": "2026-07-23_07-20-38",
+  "timeSec": 8.0,
+  "source": "six-camera-ground-projection",
+  "calibrated": false,
+  "calibration": "Tesla HW4 six-camera seed rig",
+  "coordinateFrame": "x-right_y-up_z-forward",
+  "texture": "07-20-38-8s.jpg",
+  "semanticPreview": "07-20-38-8s-semantic.png",
+  "coveragePixels": {
+    "rear": 251893,
+    "front": 359736,
+    "leftPillar": 348516,
+    "rightPillar": 347419,
+    "left": 323659,
+    "right": 323131
+  },
+  "objects": [
+    {
+      "id": "object-001",
+      "kind": "vehicle",
+      "x": 3.64,
+      "z": 10.906,
+      "width": 1.9,
+      "length": 4.5,
+      "heading": 0.0,
+      "confidence": 0.9007,
+      "source": "yolo11",
+      "camera": "front",
+      "imageBox": [
+        1837.0,
+        861.7,
+        2175.8,
+        1097.3
+      ]
+    },
+    {
+      "id": "object-002",
+      "kind": "vehicle",
+      "x": 0.076,
+      "z": 11.604,
+      "width": 1.9,
+      "length": 4.5,
+      "heading": 0.0,
+      "confidence": 0.8644,
+      "source": "yolo11",
+      "camera": "front",
+      "imageBox": [
+        1327.2,
+        865.9,
+        1590.7,
+        1084.3
+      ]
+    },
+    {
+      "id": "object-003",
+      "kind": "vehicle",
+      "x": -9.655,
+      "z": 13.471,
+      "width": 1.9,
+      "length": 4.5,
+      "heading": 0.0,
+      "confidence": 0.8606,
+      "source": "yolo11",
+      "camera": "front",
+      "imageBox": [
+        61.7,
+        879.1,
+        434.0,
+        1056.0
+      ]
+    },
+    {
+      "id": "object-004",
+      "kind": "vehicle",
+      "x": 11.128,
+      "z": -45.64,
+      "width": 1.9,
+      "length": 4.5,
+      "heading": 3.1416,
+      "confidence": 0.8231,
+      "source": "yolo11",
+      "camera": "right",
+      "imageBox": [
+        1029.8,
+        391.7,
+        1163.1,
+        465.3
+      ]
+    },
+    {
+      "id": "object-005",
+      "kind": "vehicle",
+      "x": 6.587,
+      "z": -26.653,
+      "width": 1.9,
+      "length": 4.5,
+      "heading": 3.1416,
+      "confidence": 0.608,
+      "source": "yolo11",
+      "camera": "rear",
+      "imageBox": [
+        477.8,
+        252.4,
+        561.3,
+        296.4
+      ]
+    },
+    {
+      "id": "object-006",
+      "kind": "vehicle",
+      "x": -8.579,
+      "z": 37.012,
+      "width": 1.9,
+      "length": 4.5,
+      "heading": 0.0,
+      "confidence": 0.402,
+      "source": "yolo11",
+      "camera": "front",
+      "imageBox": [
+        1030.6,
+        911.4,
+        1087.3,
+        943.8
+      ]
+    },
+    {
+      "id": "object-007",
+      "kind": "vehicle",
+      "x": -8.134,
+      "z": 44.297,
+      "width": 1.9,
+      "length": 4.5,
+      "heading": 0.0,
+      "confidence": 0.3611,
+      "source": "yolo11",
+      "camera": "front",
+      "imageBox": [
+        1109.9,
+        897.4,
+        1169.6,
+        933.2
+      ]
+    },
+    {
+      "id": "object-008",
+      "kind": "vehicle",
+      "x": -3.312,
+      "z": 41.305,
+      "width": 1.9,
+      "length": 4.5,
+      "heading": 0.0,
+      "confidence": 0.2837,
+      "source": "yolo11",
+      "camera": "front",
+      "imageBox": [
+        1286.4,
+        893.1,
+        1340.4,
+        937.1
+      ]
+    }
+  ],
+  "lanes": [
+    [
+      [
+        -2.382,
+        4.734
+      ],
+      [
+        -2.351,
+        5.956
+      ],
+      [
+        -2.321,
+        7.177
+      ],
+      [
+        -2.29,
+        8.399
+      ],
+      [
+        -2.26,
+        9.62
+      ],
+      [
+        -2.229,
+        10.842
+      ],
+      [
+        -2.199,
+        12.063
+      ],
+      [
+        -2.168,
+        13.285
+      ],
+      [
+        -2.138,
+        14.506
+      ],
+      [
+        -2.107,
+        15.728
+      ],
+      [
+        -2.076,
+        16.949
+      ],
+      [
+        -2.046,
+        18.171
+      ],
+      [
+        -2.015,
+        19.392
+      ],
+      [
+        -1.985,
+        20.614
+      ],
+      [
+        -1.954,
+        21.835
+      ],
+      [
+        -1.924,
+        23.056
+      ],
+      [
+        -1.893,
+        24.278
+      ],
+      [
+        -1.863,
+        25.499
+      ],
+      [
+        -1.832,
+        26.721
+      ],
+      [
+        -1.802,
+        27.942
+      ],
+      [
+        -1.771,
+        29.164
+      ],
+      [
+        -1.741,
+        30.385
+      ],
+      [
+        -1.71,
+        31.607
+      ],
+      [
+        -1.679,
+        32.828
+      ],
+      [
+        -1.649,
+        34.05
+      ],
+      [
+        -1.618,
+        35.271
+      ],
+      [
+        -1.588,
+        36.493
+      ],
+      [
+        -1.557,
+        37.714
+      ],
+      [
+        -1.527,
+        38.936
+      ],
+      [
+        -1.496,
+        40.157
+      ],
+      [
+        -1.466,
+        41.379
+      ],
+      [
+        -1.435,
+        42.6
+      ],
+      [
+        -1.405,
+        43.822
+      ]
+    ],
+    [
+      [
+        2.352,
+        8.248
+      ],
+      [
+        2.322,
+        9.457
+      ],
+      [
+        2.292,
+        10.666
+      ],
+      [
+        2.262,
+        11.875
+      ],
+      [
+        2.231,
+        13.084
+      ],
+      [
+        2.201,
+        14.294
+      ],
+      [
+        2.171,
+        15.503
+      ],
+      [
+        2.141,
+        16.712
+      ],
+      [
+        2.11,
+        17.921
+      ],
+      [
+        2.08,
+        19.131
+      ],
+      [
+        2.05,
+        20.34
+      ],
+      [
+        2.02,
+        21.549
+      ],
+      [
+        1.99,
+        22.758
+      ],
+      [
+        1.959,
+        23.968
+      ],
+      [
+        1.929,
+        25.177
+      ],
+      [
+        1.899,
+        26.386
+      ],
+      [
+        1.869,
+        27.595
+      ],
+      [
+        1.838,
+        28.804
+      ],
+      [
+        1.808,
+        30.014
+      ],
+      [
+        1.778,
+        31.223
+      ],
+      [
+        1.748,
+        32.432
+      ],
+      [
+        1.717,
+        33.641
+      ],
+      [
+        1.687,
+        34.851
+      ],
+      [
+        1.657,
+        36.06
+      ],
+      [
+        1.627,
+        37.269
+      ],
+      [
+        1.597,
+        38.478
+      ],
+      [
+        1.566,
+        39.687
+      ],
+      [
+        1.536,
+        40.897
+      ],
+      [
+        1.506,
+        42.106
+      ]
+    ]
+  ],
+  "notes": [
+    "All visible pixels originate from synchronized TeslaCam frames.",
+    "Objects are YOLO detections projected from their ground-contact image point.",
+    "Lane polylines are extracted from the front camera and intersected with the ground plane.",
+    "Metric scale remains approximate while the seed calibration is active."
+  ]
+}

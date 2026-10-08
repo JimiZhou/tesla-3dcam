@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "name": "Tesla HW4 six-camera footage-estimated rig",
+  "source": "moge2-footage-estimate",
+  "calibrated": true,
+  "factoryCalibrated": false,
+  "coordinateFrame": "x-right_y-up_z-forward",
+  "output": {
+    "size": 1200,
+    "metersPerPixel": 0.06,
+    "origin": [
+      600,
+      650
+    ]
+  },
+  "cameras": {
+    "front": {
+      "yawDeg": 0,
+      "pitchDeg": 1.417,
+      "heightM": 1.42,
+      "originM": [
+        0.0,
+        0.0
+      ],
+      "focalScale": 1.0373,
+      "principalPoint": [
+        0.5,
+        0.5
+      ],
+      "priority": 1.15,
+      "maxRangeM": 80.0,
+      "rollDeg": 0.149
+    },
+    "rear": {
+      "yawDeg": 180,
+      "pitchDeg": 13.268,
+      "heightM": 1.34,
+      "originM": [
+        0.0,
+        -1.8
+      ],
+      "focalScale": 0.7444,
+      "principalPoint": [
+        0.5,
+        0.5
+      ],
+      "priority": 1.0,
+      "maxRangeM": 60.0,
+      "rollDeg": 2.233
+    },
+    "leftPillar": {
+      "yawDeg": -92,
+      "pitchDeg": 3.404,
+      "heightM": 1.35,
+      "originM": [
+        -0.86,
+        -0.45
+      ],
+      "focalScale": 1.0349,
+      "principalPoint": [
+        0.5,
+        0.5
+      ],
+      "priority": 0.88,
+      "maxRangeM": 30.0,
+      "rollDeg": 0.237
+    },
+    "rightPillar": {
+      "yawDeg": 92,
+      "pitchDeg": 4.754,
+      "heightM": 1.35,
+      "originM": [
+        0.86,
+        -0.45
+      ],
+      "focalScale": 0.8852,
+      "principalPoint": [
+        0.5,
+        0.5
+      ],
+      "priority": 0.88,
+      "maxRangeM": 30.0,
+      "rollDeg": -1.724
+    },
+    "left": {
+      "yawDeg": -138,
+      "pitchDeg": 2.113,
+      "heightM": 1.18,
+      "originM": [
+        -0.94,
+        -0.72
+      ],
+      "focalScale": 0.973,
+      "principalPoint": [
+        0.5,
+        0.5
+      ],
+      "priority": 0.95,
+      "maxRangeM": 40.0,
+      "rollDeg": 1.087
+    },
+    "right": {
+      "yawDeg": 138,
+      "pitchDeg": 4.335,
+      "heightM": 1.18,
+      "originM": [
+        0.94,
+        -0.72
+      ],
+      "focalScale": 0.841,
+      "principalPoint": [
+        0.5,
+        0.5
+      ],
+      "priority": 0.95,
+      "maxRangeM": 40.0,
+      "rollDeg": 1.561
+    }
+  },
+  "notes": [
+    "Focal length, principal point, pitch and roll are estimated from real footage with MoGe-2.",
+    "Yaw, mounting origin and camera height are carried over from the seed rig.",
+    "This is not Tesla factory calibration; metric positions remain approximate.",
+    "Measured from 6 clip(s) x 6 frames: 2026-07-22_08-11-08, 2026-07-22_08-12-09, 2026-07-22_08-13-09, 2026-07-22_08-14-09, 2026-07-22_08-15-10, 2026-07-22_08-16-11."
+  ],
+  "calibratedCameras": [
+    "front",
+    "left",
+    "leftPillar",
+    "rear",
+    "right",
+    "rightPillar"
+  ]
+}

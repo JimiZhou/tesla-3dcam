@@ -1,0 +1,8 @@
+numpy>=2.0
+opencv-python-headless>=4.10
+scipy>=1.14
+pycolmap>=3.13
+ultralytics>=8.4
+# Metric depth backend (MoGe-2). Installs torch; weights cache to ~/.cache/huggingface.
+moge @ git+https://github.com/microsoft/MoGe.git
+socksio>=1.0

@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "name": "Tesla HW4 six-camera seed rig",
+  "source": "visual-seed",
+  "calibrated": false,
+  "coordinateFrame": "x-right_y-up_z-forward",
+  "output": {
+    "size": 1200,
+    "metersPerPixel": 0.06,
+    "origin": [
+      600,
+      650
+    ]
+  },
+  "cameras": {
+    "front": {
+      "yawDeg": 0,
+      "pitchDeg": 2,
+      "heightM": 1.42,
+      "originM": [
+        0.0,
+        0.0
+      ],
+      "focalScale": 0.58,
+      "principalPoint": [
+        0.5,
+        0.5
+      ],
+      "priority": 1.15,
+      "maxRangeM": 80.0
+    },
+    "rear": {
+      "yawDeg": 180,
+      "pitchDeg": 16,
+      "heightM": 1.34,
+      "originM": [
+        0.0,
+        -1.8
+      ],
+      "focalScale": 0.52,
+      "principalPoint": [
+        0.5,
+        0.5
+      ],
+      "priority": 1.0,
+      "maxRangeM": 60.0
+    },
+    "leftPillar": {
+      "yawDeg": -92,
+      "pitchDeg": 3,
+      "heightM": 1.35,
+      "originM": [
+        -0.86,
+        -0.45
+      ],
+      "focalScale": 0.48,
+      "principalPoint": [
+        0.5,
+        0.5
+      ],
+      "priority": 0.88,
+      "maxRangeM": 30.0
+    },
+    "rightPillar": {
+      "yawDeg": 92,
+      "pitchDeg": 3,
+      "heightM": 1.35,
+      "originM": [
+        0.86,
+        -0.45
+      ],
+      "focalScale": 0.48,
+      "principalPoint": [
+        0.5,
+        0.5
+      ],
+      "priority": 0.88,
+      "maxRangeM": 30.0
+    },
+    "left": {
+      "yawDeg": -138,
+      "pitchDeg": 2,
+      "heightM": 1.18,
+      "originM": [
+        -0.94,
+        -0.72
+      ],
+      "focalScale": 0.46,
+      "principalPoint": [
+        0.5,
+        0.5
+      ],
+      "priority": 0.95,
+      "maxRangeM": 40.0
+    },
+    "right": {
+      "yawDeg": 138,
+      "pitchDeg": 2,
+      "heightM": 1.18,
+      "originM": [
+        0.94,
+        -0.72
+      ],
+      "focalScale": 0.46,
+      "principalPoint": [
+        0.5,
+        0.5
+      ],
+      "priority": 0.95,
+      "maxRangeM": 40.0
+    }
+  },
+  "notes": [
+    "Seed values estimated from supplied footage; not factory calibration.",
+    "Use the calibration workflow before treating distances as measurements.",
+    "maxRangeM is the usable detection range per camera; wide-angle repeaters and pillars resolve little beyond it."
+  ]
+}
